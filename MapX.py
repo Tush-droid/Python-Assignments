@@ -1,0 +1,22 @@
+
+def CheckEven(no):
+    return(no%2==0)
+
+def Increment(no):
+    return no+1
+
+def main():
+    Data=[12,32,4,15,16,20]
+
+    print("Input data is",Data)
+
+    FData=list(filter(CheckEven,Data))#passing another function as parameter 00functional prgm
+    print("Data after filter ",FData)
+
+    MData=list(map(Increment,FData))
+    print(MData)
+
+
+
+if __name__== "__main__":
+    main()

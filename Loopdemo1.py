@@ -1,0 +1,1 @@
+print("jai Ganesh ...\n"*5)
